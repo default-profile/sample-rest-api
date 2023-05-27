@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node index.ts",
-    "dev": "ts-node-dev index.ts"
+    "dev": "ts-node-dev index.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
